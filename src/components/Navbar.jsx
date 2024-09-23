@@ -7,15 +7,15 @@ const Navbar = () => {
     <nav className="bg-zinc-500 text-white fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold">My Portfolio</h1>
+        <h1 className="text-xl md:text-2xl font-bold">My Portfolio</h1>
 
         {/* Full Menu for Desktop */}
         <div className="hidden md:flex space-x-8">
-          <a href="#home" className="hover:text-blue-400">Home</a>
-          <a href="#skills" className="hover:text-blue-400">Skills</a>
-          <a href="#projects" className="hover:text-blue-400">Projects</a>
-          <a href="#education" className="hover:text-blue-400">Education</a>
-          <a href="#contact" className="hover:text-blue-400">Contact</a>
+          <a href="#home" className="hover:text-blue-400 text-sm md:text-base">Home</a>
+          <a href="#skills" className="hover:text-blue-400 text-sm md:text-base">Skills</a>
+          <a href="#projects" className="hover:text-blue-400 text-sm md:text-base">Projects</a>
+          <a href="#education" className="hover:text-blue-400 text-sm md:text-base">Education</a>
+          <a href="#contact" className="hover:text-blue-400 text-sm md:text-base">Contact</a>
         </div>
 
         {/* Hamburger Icon for Mobile */}

@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
                     {skills.map((skill, index) => (
                         <div key={index} className="py-10 mt-10  bg-zinc-300 rounded-lg shadow-lg">
-                            <h3 className="text-2xl  font-bold">{skill}</h3>
+                            <h3 className="text-lg md:text-2xl font-bold">{skill}</h3>
                         </div>
                     ))}
                 </div>

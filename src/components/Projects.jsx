@@ -32,9 +32,9 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
                     {projects.map((project, index) => (
                         <div key={index} className="p-10 bg-white rounded-lg shadow-lg">
-                            <img src={project.image} alt={project.title} className="w-full h-64 object-cover rounded-md" />
-                            <h3 className="text-2xl font-semibold mt-4">{project.title}</h3>
-                            <p className="mt-2">{project.description}</p>
+                            <img src={project.image} alt={project.title} className="w-full h-64 md:h-72  object-cover rounded-md" />
+                            <h3 className="text-xl md:text-2xl font-semibold mt-4">{project.title}</h3>
+                            <p className="text-base md:text-lg">{project.description}</p>
 
                             {/* Live Project Button */}
                             <a

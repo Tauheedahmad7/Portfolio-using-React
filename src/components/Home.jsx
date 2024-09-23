@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import gsap from 'gsap';
 
@@ -9,7 +9,8 @@ const Home = () => {
         tl.fromTo(
             ".intro-1", 
             { opacity: 0, y: -50 }, 
-            { opacity: 1, y: 0, duration: 1 }
+            { opacity: 1, y: 0, duration: 1 },
+            { repeat: -1 }
         )
         .fromTo(
             ".intro-2", 
@@ -29,11 +30,11 @@ const Home = () => {
         <section id="home" className="h-screen bg-cover bg-center flex items-center justify-center bg-zinc-200" style={{ backgroundColor: 'zinc-200' }}>
             <div className="text-center text-white items-center">
                 <div>
-                    <h2 className="text-5xl font-bold font-serif mb-2 bg-gradient-to-r from-purple-700 to-pink-400 bg-clip-text text-transparent intro-1">
+                    <h2 className="text-4xl md:text-5xl font-bold font-serif mb-2 bg-gradient-to-r from-purple-700 to-pink-400 bg-clip-text text-transparent intro-1">
                         I'm Tauheed Ahmad
                     </h2>
 
-                    <h3 className="text-4xl font-bold mb-2 bg-gradient-to-r from-green-500 to-rose-700 bg-clip-text text-transparent intro-2">
+                    <h3 className="text-3xl md:text-4xl  font-bold mb-2 bg-gradient-to-r from-green-500 to-rose-700 bg-clip-text text-transparent intro-2">
                         I'm a Web Developer &
                     </h3>
 
@@ -43,19 +44,20 @@ const Home = () => {
                 </div>
 
                 {/* Download Resume Button */}
-                <div className="flex gap-14 items-center ml-14">
+                <div className="flex flex-col md:flex-row gap-6 items-center ml-0 md:ml-14">
                     <div className="mt-4">
                         <a href="/TAUHEED_AHMAD.pdf" download="Tauheed_Ahmad.pdf">
-                            <button className="px-6 py-3 bg-blue-600 text-white text-xl rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
+                            <button className="px-4 py-2 md:px-6 md:py-3 bg-blue-600 text-white text-base md:text-xl rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
                                 Download Resume
                             </button>
                         </a>
                     </div>
 
-                    <div className="connect mt-5">
-                        <button className="px-6 py-3 bg-blue-600 text-white text-xl rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
+                    {/* Connect Me */}
+                    <div className="connect mt-5 md:mt-5">
+                        <button className="px-4 py-2 md:px-6 md:py-3 bg-blue-600 text-white text-base md:text-xl rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
                             Connect Me
-                            <i className="ri-arrow-down-line ml-3"></i>
+                            <i className="ri-arrow-down-line ml-2 md:ml-3"></i>
                         </button>
                     </div>
                 </div>

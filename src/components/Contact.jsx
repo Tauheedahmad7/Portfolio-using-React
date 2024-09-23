@@ -7,7 +7,7 @@ const Contact = () => {
                     <input
                         type="text"
                         placeholder="Your Name"
-                        className="w-full p-4 mb-4 border border-gray-300 rounded-md"
+                        className="w-full p-4 md:p-4 mb-4 border border-gray-300 rounded-md"
                     />
                     <input
                         type="email"
