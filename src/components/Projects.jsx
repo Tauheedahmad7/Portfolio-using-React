@@ -2,25 +2,25 @@ const projects = [
     {
         title: 'Brandbeet Design',
         description: 'The design is very clean, with lots of white space. design and Developed modern websites using Html,css,javascripts and it is optimized for speed and user experiences. It is fully responsive design that adjusts perfectly on mobile, tablet, and desktop.',
-        image: '/public/Brandbeet.jpg',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZCl3uh7WMISjnip_5MFZmvqvDivaTxWbzwg&s',
         liveLink: 'https://tauheedahmad7.github.io/Brandbeet-Clone/'
     },
     {
         title: 'Animated Websites',
         description: 'Interactive Animations Using the GSAP library, you’ve created smooth and engaging animations that take the user experience to the next level. With HTML and CSS, the website is fully responsive, ensuring flawless performance across all screen sizes. Responsive Design',
-        image: '/public/Animated Websites.jpeg',
+        image: 'https://i.ytimg.com/vi/uT6nO0QemYw/maxresdefault.jpg',
         liveLink: 'https://github.com/Tauheedahmad7/Animated-using-html-css-js-gsap'
     },
     {
         title: 'Dennis snellenberg',
         description: 'I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions and interaction. Building with Webflow (or Kirby CMS)the website is fully responsive, ensuring flawless performance across all screen sizes. Responsive Design and user experience with React and Tailwind Css ',
-        image: '/public/dennis.jpeg',
+        image: 'https://dennissnellenberg.com/media/site/89d468b455-1646837228/meta-image-dennis-snellenberg-860x540-crop-q72.jpg',
         liveLink: 'https://github.com/Tauheedahmad7/React-project2'
     },
     {
         title: 'Blogs Websites',
         description: 'This blog website uses Node.js and Express.js for backend logic and routing, with MongoDB as the database to store blog posts and user data. The frontend is styled using Tailwind CSS for a modern, responsive design. It supports full CRUD functionality, allowing users to create, edit, update, and delete blog posts easily and efficiently.',
-        image: '/public/Blogs.png',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWR51KoPIpYk5jqKaVEEyiSrSY7GxZywChZQ&s',
     },
 ];
 
